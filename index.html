@@ -4,10 +4,46 @@
     <meta charset="utf-8">
     <title>TestTestTest</title>
     <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.comcss2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <h1>GODSPEED</h1>
-    <p>If you would like to donate, please do so below!</p>
-    <button type="button" name="donate-button">DONATE HERE</button>
+        <!-- Canvas -->
+    <canvas class="orb-canvas"></canvas>
+    <!-- Overlay -->
+    <div class="overlay">
+      <!-- Overlay inner wrapper -->
+      <div class="overlay__inner">
+        <!-- Title -->
+        <h1 class="overlay__title">
+          Welcome to the world of
+          <span class="text-gradient">ONWARD</span> STEAM Program.
+        </h1>
+        <!-- Description -->
+        <p class="overlay__description">
+          An 8 Week curriculum to teach the basics of Computer Science, help students get a command of Web Development, and build a portfolio of websites, mobile apps, and video games.
+
+          <strong>We're gonna talk computer identitiy and personal growth, too.</strong>
+        </p>
+        <!-- Buttons -->
+        <div class="overlay__btns">
+
+          <button class="overlay__btn overlay__btn--transparent">
+            <a href="https://onwardsteam.org/" target="_blank">
+
+              View Class Offers
+            </a>
+          </button>
+
+          <button class="overlay__btn overlay__btn--colors">
+            <span>Financial Aid Available!</span>
+            <span class="overlay__btn-emoji">🎨</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="js/master.js" charset="utf-8"></script>
   </body>
 </html>
